@@ -1,4 +1,4 @@
-FROM node:alpine as node
+FROM node:16.13.2-slim as node
 ### ANGULAR ###
 WORKDIR /usr/app
 
